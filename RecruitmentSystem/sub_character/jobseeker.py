@@ -106,8 +106,10 @@ class JobSeeker(user):
             print('\njob name\tremaining\t type\t\t date')
             print(job_name, '\t\t', company.jobs[job_name][0], '\t\t', company.jobs[job_name][1], '\t',
                   company.jobs[job_name][2])
+            return True
         else:
             print('The job was not found')
+            return False
 
     # by type
     def search_job_by_type(self, company, job_type):

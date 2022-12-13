@@ -198,6 +198,9 @@ class menu:
                                         elif index1s == '4':  # exit
                                             print('exit search!')
                                             break
+                                        
+                                        else:
+                                            print('no such serial number, plz re-enter!')
 
 
 
